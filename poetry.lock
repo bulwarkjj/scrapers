@@ -335,6 +335,20 @@ files = [
 ]
 
 [[package]]
+name = "robotframework-selenium2library"
+version = "3.0.0"
+description = "Web testing library for Robot Framework"
+optional = false
+python-versions = "*"
+files = [
+    {file = "robotframework-selenium2library-3.0.0.tar.gz", hash = "sha256:2a8e942b0788b16ded253039008b34d2b46199283461b294f0f41a579c70fda7"},
+    {file = "robotframework_selenium2library-3.0.0-py2.py3-none-any.whl", hash = "sha256:1826b1ce8ccac76f14c4812e2d6df79f52ecda8a3c59c427eea45548c2e22cb1"},
+]
+
+[package.dependencies]
+robotframework-seleniumlibrary = ">=3.0.0"
+
+[[package]]
 name = "robotframework-seleniumlibrary"
 version = "6.2.0"
 description = "Web testing library for Robot Framework"
@@ -477,4 +491,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "dcee72f8a0fc0b022fb4024242dd0d2876b1b5956b0cef0ed0a3033cd013149a"
+content-hash = "921db0e4b6a1ccd539779a87db20cfe12059730a274f90af8b1b156eb478c1d6"
